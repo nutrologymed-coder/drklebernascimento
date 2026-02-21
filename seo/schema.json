@@ -1,0 +1,149 @@
+
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "name": "Dr. Kleber Nascimento - Nutrologia e Saúde Metabólica",
+  "image": "https://drklebernascimento.com/dr-kleber-hero.png",
+  "url": "https://drklebernascimento.com/",
+  "telephone": "+5588981827825",
+  "medicalSpecialty": ["Nutrology", "Medical Weight Loss", "Metabolic Health"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Dr Belem de Figueiredo, 69 - Lagoa Seca",
+    "addressLocality": "Juazeiro do Norte",
+    "addressRegion": "CE",
+    "postalCode": "63040-700",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -7.2275,
+    "longitude": -39.3175
+  },
+  "description": "Dr. Kleber Nascimento é médico nutrólogo especialista em emagrecimento, lipedema e performance humana em Juazeiro do Norte e Salgueiro.",
+  "sameAs": [
+    "https://www.instagram.com/drklebernurture"
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Juazeiro do Norte",
+      "sameAs": "https://www.wikidata.org/wiki/Q752673"
+    },
+    {
+      "@type": "City",
+      "name": "Crato",
+      "sameAs": "https://www.wikidata.org/wiki/Q1794191"
+    },
+    {
+      "@type": "City",
+      "name": "Barbalha",
+      "sameAs": "https://www.wikidata.org/wiki/Q1759247"
+    },
+    {
+      "@type": "City",
+      "name": "Salgueiro",
+      "sameAs": "https://www.wikidata.org/wiki/Q2011855"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://drklebernascimento.com/"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços Médicos",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Emagrecimento Médico"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Tratamento de Lipedema"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Performance Humana e Longevidade"
+        }
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que faz um médico nutrólogo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O nutrólogo é o médico especializado em diagnosticar e tratar doenças ligadas à nutrição, focando na prevenção e tratamento de desequilíbrios metabólicos e nutricionais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como funciona a primeira consulta com o Dr. Kleber?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A consulta inicial envolve uma anamnese detalhada, avaliação da composição corporal e solicitação de exames específicos para entender seu perfil metabólico único."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O Dr. Kleber atende convênios?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Os atendimentos são realizados de forma particular para garantir o tempo e a profundidade necessários para cada protocolo, mas emitimos documentação para solicitação de reembolso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual a diferença entre nutrólogo e nutricionista?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O nutrólogo é médico e pode prescrever medicamentos, solicitar exames laboratoriais complexos e tratar doenças metabólicas diretamente, enquanto o nutricionista foca no planejamento dietético."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O tratamento para lipedema tem cura?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O lipedema é uma condição crônica, mas com o tratamento adequado e acompanhamento nutrológico, é possível controlar os sintomas, reduzir a inflamação e evitar a progressão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Onde o Dr. Kleber atende?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O Dr. Kleber atende em Juazeiro do Norte (CE) no Edifício Central Park e em Salgueiro (PE) no Centro Médico Especializado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Os protocolos de emagrecimento usam medicamentos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A necessidade de medicação é avaliada caso a caso, sempre priorizando a segurança do paciente e a eficácia do tratamento metabólico global."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como agendar uma avaliação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O agendamento pode ser feito diretamente pelo WhatsApp através do botão oficial disponível neste site."
+        }
+      }
+    ]
+  }
+}
