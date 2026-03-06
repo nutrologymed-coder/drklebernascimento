@@ -4,7 +4,11 @@ import Header from './components/Header.tsx';
 import Hero from './components/Hero.tsx';
 import SocialProof from './components/SocialProof.tsx';
 import Method from './components/Method.tsx';
-import Audience from './components/Audience.tsx';
+import FeaturedServices from './components/FeaturedServices.tsx';
+import Gallery from './components/Gallery.tsx';
+import Reviews from './components/Reviews.tsx';
+import BeforeAfter from './components/BeforeAfter.tsx';
+import FAQ from './components/FAQ.tsx';
 import About from './components/About.tsx';
 import Contact from './components/Contact.tsx';
 import WhatsAppButton from './components/WhatsAppButton.tsx';
@@ -22,14 +26,18 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen font-sans bg-offWhite selection:bg-matteGold/30">
+    <div className="min-h-screen font-sans bg-obsidian selection:bg-matteGold/30">
       <Header isScrolled={isScrolled} />
       <main>
         <Hero />
         <SocialProof />
         <Method />
-        <Audience />
+        <FeaturedServices />
+        <BeforeAfter />
+        <FAQ />
+        <Reviews />
         <About />
+        <Gallery />
         <Contact />
       </main>
       <Footer />

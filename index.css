@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #080808;
+  --color-night: #0F0F0F;
+  --color-matteGold: #C5A059;
+  --color-silkWhite: #F5F5F5;
+  --color-anthracite: #1A1A1A;
+  --color-emeraldDeep: #064E3B;
+  --color-support: #8E9299;
+  --color-muted-luxury: rgba(245, 245, 245, 0.4);
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-obsidian text-silkWhite antialiased overflow-x-hidden selection:bg-matteGold/30;
+  }
+}
+
+@layer components {
+  .gold-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-matteGold via-[#F2D091] to-matteGold font-semibold;
+  }
+  
+  .card-luxury {
+    @apply bg-night border border-white/5 transition-all duration-500 hover:border-matteGold/30;
+  }
+  
+  .image-reveal {
+    @apply grayscale brightness-[0.85] contrast-[1.05] transition-all duration-1000 hover:grayscale-0 hover:brightness-100;
+  }
+  
+  .glow-dot {
+    @apply w-1.5 h-1.5 bg-matteGold rounded-full inline-block shadow-[0_0_15px_#C5A059];
+  }
+
+  .glass {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
