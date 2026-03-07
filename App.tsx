@@ -13,6 +13,8 @@ import About from './components/About.tsx';
 import Contact from './components/Contact.tsx';
 import WhatsAppButton from './components/WhatsAppButton.tsx';
 import Footer from './components/Footer.tsx';
+import CustomCursor from './components/CustomCursor.tsx';
+import Preloader from './components/Preloader.tsx';
 
 const App: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +28,11 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen font-sans bg-obsidian selection:bg-matteGold/30">
+    <div className="min-h-screen font-body bg-background selection:bg-primary/30 relative">
+      <Preloader />
+      <CustomCursor />
+      <div className="grain-overlay"></div>
+      
       <Header isScrolled={isScrolled} />
       <main>
         <Hero />

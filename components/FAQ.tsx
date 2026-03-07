@@ -38,8 +38,9 @@ const FAQ: React.FC = () => {
             {faqs.map((faq, index) => (
               <div 
                 key={index}
-                className="border border-white/5 bg-night overflow-hidden transition-all duration-300 hover:border-matteGold/20"
+                className="border border-white/5 bg-night overflow-hidden transition-all duration-300 hover:border-matteGold/20 relative"
               >
+                <div className="absolute inset-0 bg-white/[0.01] backdrop-blur-[1px] -z-10"></div>
                 <button
                   onClick={() => setActiveIndex(activeIndex === index ? null : index)}
                   className="w-full p-8 text-left flex justify-between items-center group"

@@ -58,7 +58,8 @@ const Reviews: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {reviews.map((review, idx) => (
-            <div key={idx} className="bg-obsidian p-10 border border-white/5 hover:border-matteGold/30 transition-all duration-500 group flex flex-col justify-between">
+            <div key={idx} className="bg-obsidian p-10 border border-white/5 hover:border-matteGold/30 transition-all duration-500 group flex flex-col justify-between relative overflow-hidden">
+              <div className="absolute inset-0 bg-white/[0.01] backdrop-blur-[2px] -z-10"></div>
               <div>
                 <div className="flex items-center gap-3 mb-6">
                   <img 
